@@ -28,12 +28,12 @@
     };
 
     const doneButton = () => {
-        const doneJobButton = document.querySelectorAll(".js-doneButton"); //złapanie guzików z (render)
-        doneJobButton.forEach((doneJobButton, index) => { // iterowanie po indexie buttonów na liście
-            doneJobButton.addEventListener("click", () => { //nasłuchiwanie kliknięcia po ziterowanym buttow
+        const doneJobButton = document.querySelectorAll(".js-doneButton");
+        doneJobButton.forEach((doneJobButton, index) => { 
+            doneJobButton.addEventListener("click", () => { 
 
-                toggleTaskDone(index); // odwołanie do doneTask (funckji usuwającej konkretny index arraya)
-            });                      // oraz przekazanie indexa do usuwanego elementu
+                toggleTaskDone(index); 
+            });                      
         });
 
     };
