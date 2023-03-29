@@ -1,0 +1,28 @@
+.justify {
+
+    align-self: center;
+}
+
+.section__list {
+    display: grid;
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+}
+
+.form__list--bottom {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-content: center;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin: 10px 20px
+}
+
+.form__list--decorationHidden {
+    display: none;
+}
+
+.form__list--decoration {
+    text-decoration: line-through;
+
+}

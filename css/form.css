@@ -1,3 +1,23 @@
+.form___buttonDone {
+    background-color: rgb(1, 170, 9);
+    border: none;
+    color: white;
+    float: left;
+}
+
+.form___buttonDone:hover {
+    background-color: rgb(0, 114, 6);
+    color: white
+}
+
+.form__fieldset--button {
+    float: right;
+    color: rgb(0, 143, 143);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
 .form__button {
     padding: 10px;
     background: rgb(0, 128, 128);
@@ -20,75 +40,4 @@
     color: rgb(80, 0, 0);
     font-weight: 100;
     border: none;
-}
-
-
-.form__buttonRemove {
-
-    background-color: rgb(153, 0, 0);
-    border: none;
-    color: white;
-}
-
-.form__buttonRemove:hover {
-    background-color: rgb(255, 0, 0);
-}
-
-.form__list--decoration {
-    text-decoration: line-through;
-
-}
-
-.form___buttonDone {
-    background-color: rgb(1, 170, 9);
-    border: none;
-    color: white;
-float: left;
-}
-
-.form___buttonDone:hover {
-    background-color: rgb(0, 114, 6);
-    color: white
-}
-
-
-.section__list {
-    display: grid;
-    list-style-type: none;
-    padding-inline-start: 0px;
-
-}
-
-.form__list--bottom {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-content: center;
-    border-bottom: 1px solid rgb(194, 194, 194);
-    margin: 10px 20px
-}
-
-
-.form__fieldset--button {
-    float: right;
-    color: rgb(0, 143, 143);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-}
-
-.form__fieldset--button:hover {
-    color: rgb(0, 180, 180);
-}
-
-.form__fieldset--button:active {
-    color: rgb(0, 151, 151);
-
-}
-
-.form__list--decorationHidden {
-    display: none;
-}
-
-.form__fieldset--button:disabled {
-    color: rgb(58, 58, 58);
 }

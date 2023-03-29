@@ -10,56 +10,13 @@ html {
 
 .body--font {
     font-family: 'Lato', sans-serif;
-
 }
 
 .body--color {
     background-color: rgb(226, 226, 226);
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
-}
-
-.section {
-    margin: 10px auto;
-    background-color: white;
-    box-shadow: 0 0 5px #ddd;
-}
-
-.section__header {
-    font-size: 20px;
-    padding: 20px;
-    margin: 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.section__header2 {
-    font-size: 20px;
-    padding: 20px;
-    margin: 0;
-
-}
-
-.section__body {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-gap: 20px;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-
-
 .form__input {
     padding: 10px;
     border: 1px solid #ddd;
-
 }
-
-.justify {
-
-    align-self: center;
-}
-

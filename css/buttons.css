@@ -1,0 +1,23 @@
+.form__buttonRemove {
+
+    background-color: rgb(153, 0, 0);
+    border: none;
+    color: white;
+}
+
+.form__buttonRemove:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.form__fieldset--button:hover {
+    color: rgb(0, 180, 180);
+}
+
+.form__fieldset--button:active {
+    color: rgb(0, 151, 151);
+
+}
+
+.form__fieldset--button:disabled {
+    color: rgb(58, 58, 58);
+}
